@@ -1,0 +1,81 @@
+body {
+  /* background-color: rgb(242, 200, 173); */
+  background-image: url("leaves.jpg");
+}
+
+#MyDiv,
+#Mydiv2,
+#MakeISCenter {
+  /* background-image: url("leaves.jpg"); */
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  opacity: 80%;
+  /* background-color: rgb(243, 240, 240); */
+  /* width: 500px;
+  height: 500px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+#Mydiv2 {
+  width: 50%;
+  height: 50%;
+}
+
+#parent {
+  display: grid;
+  place-items: center;
+  background-color: blanchedalmond;
+}
+
+form {
+  /* margin: 5%; */
+  padding: auto;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  border-radius: 3px;
+}
+
+input {
+  /* margin-left: 30px; */
+  /* width: 50%; */
+  /* margin: 1px; */
+  margin: 10px;
+  border-radius: 3px;
+}
+
+#subject1,
+#subject2,
+#subject3,
+#subject4,
+#subject5 {
+  min-width: 300px;
+  border-radius: 3px;
+}
+
+#Heading {
+  position: relative;
+  text-align: center;
+  font-size: large;
+}
+
+#Button {
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+
+#Mybutton {
+  width: 200px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#res {
+  font-size: 50px;
+}
