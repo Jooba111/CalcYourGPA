@@ -34,7 +34,7 @@ function Give_Me_PG(Score) {
   if (Score >= 61 && Score <= 63) return 1.0;
   if (Score >= 56 && Score <= 60) return 0.8;
   if (Score >= 51 && Score <= 55) return 0.5;
-  else return -1;
+  else return 0;
 }
 
 function Calc_For_Me() {
