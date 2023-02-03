@@ -69,7 +69,8 @@ function Calc_For_Me() {
   );
 }
 
- document.getElementById("Mydiv2").style.visibility = "hidden";
+document.getElementById("Mydiv2").style.visibility = "hidden";
+
 document.querySelector("#Mybutton").addEventListener("click", function () {
   if (
     Subject1.value != "" &&
@@ -147,6 +148,10 @@ document.querySelector("#Mybutton").addEventListener("click", function () {
     console.log("Vai shen!");
   }
 });
+
+let again = document.getElementById("#Again");
+
+console.log(again);
 
 document.querySelector("#Again").addEventListener("click", function () {
   document.body.style.backgroundColor = "white";
